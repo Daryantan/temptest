@@ -1,0 +1,41 @@
+body{
+    background-image: url(http://user-master.org/media/k2/items/cache/88f135a483ef01fac8d7b920488085e4_XL.jpg);
+}
+table, td{ 
+    
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+td:hover{
+    border: 1px solid goldenrod;
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(167, 27, 231);
+}
+th:hover{
+    border: 3px solid green;
+    background-color: rgba(255, 238, 2, 0.966);
+    color: rgb(185, 52, 168);
+}
+tr:hover{
+    background-color: bisque;
+    transform: scale(1.1);
+}
+td{
+    width: 70px;
+    height: 25px;
+}
+.td{
+    border-left: 1px dotted green;
+    border-right: 1px dotted green;
+    border-bottom: 1px solid green;
+}
+.td2{
+    border-left: 1px dotted green;
+    border-right: 1px dotted green;
+    border-bottom: 1px solid green;
+    background-color: green; 
+}
+.td3{
+    border: 0px;
+}

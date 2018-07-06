@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css?family=Marck+Script'); 
+
+@font-face{
+    font-family: Regular;
+    src: url('fonts/11994.ttf');
+}
+h1{
+    font-family: Regular;
+    font-size: 100px;
+    text-shadow: 1px 1px 0.01px #54FF8D;
+}
+p{
+    font-family: 'Marck Script', cursive;
+   font-size: 40px;
+}
+div{
+width: 300px;
+height: 300px;
+box-shadow: #54FF8D;
+-webkit-box-shadow: 37px 25px 36px 21px #5ABFB5; 
+box-shadow: 37px 25px 36px 21px #5ABFB5;
+
+border: 5px solid red;
+    background-color: blue;}
+ */
+ div{
+     background-color: bisque;
+     width: 120px;
+     height: 120px;
+     border: 1px solid black;
+     margin: 5px;
+     display: inline-block;
+     transition: 10s;
+    }
+    .rotated:hover{
+        /* transform: rotate(30deg); */
+        /* transform: scale(1.5); */
+        /* transform: translateX(500px); */
+       /* transform: skew(30deg, 10deg);  */
+       transform: skew(30deg, 10deg) scale(2) translateY(500px) rotate(360deg);
+       background-color: aqua;
+    }

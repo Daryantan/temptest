@@ -1,0 +1,19 @@
+.container{
+    background-color: aqua;
+   
+}
+.row{
+    background-color: blue;
+}
+.row div{
+    background-color: blueviolet;
+
+}
+.crow div:nth-child(odd){
+    background-color: bisque;
+    height: 600px;
+}
+.row div: :nth-child(even){
+    background-color: green;
+    
+}

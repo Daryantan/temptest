@@ -1,0 +1,16 @@
+p{
+    margin: 0 150px 0 150px;
+    background-color: rgb(132, 222, 250);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.span1{
+    font-weight: 400;
+    font-style: italic;
+}
+img:hover{
+    transform: scale(1.5);
+}
+h1:hover{
+    transform: rotate(95deg);
+}

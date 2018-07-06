@@ -1,0 +1,48 @@
+.fotorama{
+    width: 1000px;
+}
+div{
+    width: 100px;
+    background-color: rgb(126, 211, 245);
+}
+
+body, html{
+    height: 100%;
+}
+
+}
+
+.col{ 
+ padding-left: 50000px; 
+}
+/*body{
+
+}
+.div{
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top:30px;
+    z-index:1;
+}
+
+.div2{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:150px;
+    top:30px;
+    z-index: 0;
+}
+
+.div3{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    float: left;
+    position: absolute;
+    
+}

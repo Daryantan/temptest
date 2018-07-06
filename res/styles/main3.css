@@ -1,0 +1,26 @@
+  body{
+      background-image: url(http://bayberryplaza.com/wp-content/uploads/2017/09/apple-products-backgrounds-powerpoint.jpg);
+      background-size: cover;
+       background-repeat: no-repeat;
+  }
+  table, td{ 
+    
+        border: 3px solid green;
+        border-collapse: collapse;
+    }
+    td:hover{
+        border: 1px solid goldenrod;
+        padding: 10px;
+        background-color: aquamarine;
+        color: rgb(167, 27, 231);
+    }
+    th:hover{
+        border: 3px solid green;
+        background-color: rgba(255, 238, 2, 0.966);
+        color: rgb(185, 52, 168);
+    }
+    tr:hover{
+        background-color: bisque;
+        transform: scale(1.1);
+    }
+   
